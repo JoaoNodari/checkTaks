@@ -76,6 +76,11 @@
     margin-bottom: 10px;
 }
 
+.done {
+    text-decoration: line-through;
+    background-color: rgba(60, 155, 60, 0.541) !important;
+}
+
 .container .container-input .list-tasks .task i {
     opacity: 0;
     transition: 0.9s ease-in-out;

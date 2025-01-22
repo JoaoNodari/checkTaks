@@ -1,0 +1,17 @@
+@media(max-width: 908px) {
+    .container .container-imagem img {
+        max-width: 250px;
+    }
+}
+
+@media(max-width: 776px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 375px) {
+    .container .container-input {
+        width: 90%;
+    }
+}
