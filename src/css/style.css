@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 .container {
     background: #83a4d4;
     background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);
@@ -16,7 +15,15 @@
     max-width: 350px;
 }
 
-.container .container-input {
+.container .container-informacoes h1 {
+    text-align: center;
+    font-family: "Atma", serif;
+    margin-bottom: 20px;
+    font-size: 2.8em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.562);
+}
+
+.container .container-informacoes .container-input {
     background-color: #dddddd73;
     border-radius: 10px;
     padding: 20px;
@@ -25,14 +32,14 @@
     flex-direction: column;
 }
 
-.container .container-input .input {
+.container .container-informacoes .container-input .input {
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-bottom: 20px
 }
 
-.container .container-input .input .input-task{
+.container .container-informacoes .container-input .input .input-task{
     border: none;
     border-radius: 5px;
     width: 200px;
@@ -40,7 +47,7 @@
     padding: 0 15px;
 }
 
-.container .container-input .input .button-add-task {
+.container .container-informacoes .container-input .input .button-add-task {
     border: none;
     border-radius: 5px;
     padding: 0 15px;
@@ -54,16 +61,16 @@
     transition: 0.5s ease-in-out;
 }
 
-.container .container-input .input .button-add-task:hover {
+.container .container-informacoes .container-input .input .button-add-task:hover {
     background-color: #83a4d4;    
     font-weight: 400;
 }
 
-.container .container-input .list-tasks {
+.container .container-informacoes .container-input .list-tasks {
     width: 100%;
 }
 
-.container .container-input .list-tasks .task {
+.container .container-informacoes .container-input .list-tasks .task {
     background-color: #f2f2f285;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     border-radius: 5px;
@@ -81,18 +88,18 @@
     background-color: rgba(60, 155, 60, 0.541) !important;
 }
 
-.container .container-input .list-tasks .task i {
+.container .container-informacoes .container-input .list-tasks .task i {
     opacity: 0;
     transition: 0.9s ease-in-out;
 }
 
 
-.container .container-input .list-tasks .task:hover i {
+.container .container-informacoes .container-input .list-tasks .task:hover i {
     opacity: 1;
     cursor: pointer;
 }
 
 
-.container .container-input .list-tasks .task i:hover {
+.container .container-informacoes .container-input .list-tasks .task i:hover {
     transform: scale(1.3);
 }
